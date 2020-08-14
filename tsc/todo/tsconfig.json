@@ -1,0 +1,14 @@
+/*
+ these settings tell the compiler that I want to use
+the latest version of JavaScript, that the project’s TypeScript files will be found in the src folder, that the
+output it produces should be placed in the dist folder, and that the commonjs standard should be used for
+loading code from separate files
+*/
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "commonjs"
+    }
+}

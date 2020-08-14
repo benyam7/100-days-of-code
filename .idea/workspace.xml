@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcd3dba0-1558-4f64-8437-86fb71866eaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/r1-log.md" beforeDir="false" afterPath="$PROJECT_DIR$/r1-log.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\100-days-of-code-me\100-days-of-code\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g3Yf32eSDKKWJcv6UPucekHo6T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mini-demo-app" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcd3dba0-1558-4f64-8437-86fb71866eaa" name="Default Changelist" comment="" />
+      <created>1597344842110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597344842110</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="933" y="190" key="FileChooserDialogImpl" timestamp="1597344955287">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="933" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1597344955287" />
+  </component>
+</project>
