@@ -9,10 +9,9 @@
 1. [Firebase Realtime Database](https://github.com/benyam7/100-days-of-code/tree/day-1-firebase-realtime-database/)
 
 
-### Day 2: August 14, Friday
+### Day 3-4-4: August 15 - 17
 
-**Today's Progress**: I've gone through a book called "Road to React" and "Essential Typescript" 
-**Thoughts** : Typescript looks like hard to take on, but it's day one. I look forward to feel more comfortable with it. (it's a marathon, not a sprint)
-
+**Progress**: I've gone through a book called "Road to React" and "Essential Typescript" 
+**Thoughts** : 
 **Link(s) to work**
-1. [React | Typescript](https://github.com/benyam7/100-days-of-code/tree/day-2-web)
+1. [React](https://github.com/benyam7/100-days-of-code/tree/react-day-3-4-5)
