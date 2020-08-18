@@ -7,7 +7,7 @@ const title = 'React'
 const App = () => {
   const stories = [
     {
-      title: 'React',
+      title: 'react',
       url: 'https://reactjs.org/',
       author: 'Jordan Walke',
       num_comments: 3,
@@ -16,7 +16,7 @@ const App = () => {
     },
 
     {
-      title: 'Redux',
+      title: 'redux',
       url: 'https://reactjs.org/',
       author: 'Dan Abramov, Andrew Clark',
       num_comments: 2,
@@ -24,7 +24,7 @@ const App = () => {
       objectID: 1,
     },
     {
-      title: 'React3',
+      title: 'vue',
       url: 'https://reactjs.org/',
       author: 'Jordan Walke3',
       num_comments: 5,
@@ -33,7 +33,7 @@ const App = () => {
     },
 
     {
-      title: 'Redux5',
+      title: 'angular',
       url: 'https://reactjs.org/',
       author: 'Dan Abramov, Andrew Clark4',
       num_comments: 42,
@@ -42,35 +42,37 @@ const App = () => {
     },
   ]
 
+  const [searchTerm, setSearchTerm] = React.useState('react')
+
   const handleSearch = (event) => {
-    console.log(event.target.value)
+    setSearchTerm(event.target.value)
   }
+
+  const searchedStories = () =>
+    stories.filter((item) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()),
+    )
 
   return (
     <div className="App">
       <hr />
 
-      <Search onSearch={handleSearch} />
-      <List list={stories} />
+      <Search search={searchTerm} onSearch={handleSearch} />
+      <List list={searchedStories()} />
     </div>
   )
 }
 
-const Search = (props) => {
-  const [searchItem, setSearchItem] = React.useState('')
-
-  const handleChange = (event) => {
-    setSearchItem(event.target.value)
-    props.onSearch(event)
-  }
-
+const Search = ({ onSearch, search }) => {
   return (
     <div>
       <label htmlFor="search">Search: </label>
-      <input id="search" type="text" onChange={handleChange} />
-      <p>
-        Searching for: <strong>{searchItem}</strong>
-      </p>
+      <input
+        id="search"
+        type="text"
+        onChange={onSearch}
+        value={search}
+      />
     </div>
   )
 }
