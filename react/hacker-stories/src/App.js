@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 
 // eslint-disable-next-line
@@ -42,7 +42,7 @@ const App = () => {
     },
   ]
 
-  const [searchTerm, setSearchTerm] = React.useState('react')
+  const [searchTerm, setSearchTerm] = useState('')
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value)
